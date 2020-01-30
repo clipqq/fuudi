@@ -5,6 +5,6 @@ module.exports = {
   "driver": "pg",
   "connectionString": (process.env.NODE_ENV === 'test')
     ? process.env.TEST_DB_URL
-    : process.env.DB_URL,
+    : process.env.HEROKU_POSTGRESQL_JADE_URL,
     "ssl": !!process.env.SSL,
 }

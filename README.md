@@ -34,7 +34,7 @@ timezone = 'UTC'
 
 - To seed the database for development: `psql -U fuudi -d fuudi -a -f seeds/seed.fuudi_tables.sql`
 - To clear seed data: `psql -U fuudi -d fuudi -a -f seeds/trunc.fuudi_tables.sql`
-- To seed Heroku with data (replace postgres URL with your Heroku URI): `psql -U fuudi -d postgres://ncfuvjkvpxjvsj:4d58e0f44dfdddf5a82636b4155c7adfe6c25b12a8b517bcf712b64b70be3e7a@ec2-174-129-255-37.compute-1.amazonaws.com:5432/d5vd5fdg9njarh -a -f seeds/seed.fuudi_tables.sql`
+- To seed Heroku with data (replace postgres URL with your Heroku URI): `psql -U fuudi -d postgres://iqpzikvfsrsnfr:c1c8fefb99f01d28085e5d1fe24f9392c48052cce73e518489931cfccecfc118@ec2-174-129-33-97.compute-1.amazonaws.com:5432/d4k8437n9fg1ah -a -f seeds/seed.fuudi_tables.sql`
 
 ## Scripts
 
