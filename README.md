@@ -1,6 +1,6 @@
 # Fuudi Server
 
-- Live Link: https://fuudi-app.now.sh/
+* [LIVE:] https://fuudi-app.clipqq.now.sh/
 
 # What is Fuudi?
 
